@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "practical01"
+version = "0.1.0"
+description = ""
+authors = ["Yuhan Wang <s4842866@uq.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
